@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Project2</title>
@@ -7,17 +8,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-<app-root></app-root>
-<script>
+  <app-root></app-root>
+  <script>
+    b = (a,b) => {
+      let c = a + b
+      return c
+    }
+    function abc(a,b){
+      let c = a + b
+      return c
+    }
+    console.log(b(10,50))
+    console.log(abc(10,50))
 
-  for(var i=0;i<10;i++){
-    let j =i
-    console.log(j)
-  }
 
-  console.log(j)
 
-</script>
+  </script>
 </body>
+
 </html>
