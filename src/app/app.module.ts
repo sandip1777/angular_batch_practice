@@ -16,7 +16,9 @@ import { ReaderComponent } from './reader/reader.component';
     CardComponent,
     ContactComponent,
     LibraryComponent,
+    ReaderComponent,
     ReaderComponent
+
   ],
   imports: [
     BrowserModule,
